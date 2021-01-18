@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,8 +11,31 @@
 		840E61F825B5D5E7003315FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E61F725B5D5E7003315FA /* SceneDelegate.swift */; };
 		840E61FA25B5D5E7003315FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E61F925B5D5E7003315FA /* ContentView.swift */; };
 		840E61FC25B5D5EA003315FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E61FB25B5D5EA003315FA /* Assets.xcassets */; };
-		840E61FF25B5D5EA003315FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E61FE25B5D5EA003315FA /* Preview Assets.xcassets */; };
 		840E620225B5D5EA003315FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840E620025B5D5EA003315FA /* LaunchScreen.storyboard */; };
+		840E622825B5D630003315FA /* TrackSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E620B25B5D62F003315FA /* TrackSearchView.swift */; };
+		840E622925B5D630003315FA /* TransientTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E620C25B5D62F003315FA /* TransientTextView.swift */; };
+		840E622A25B5D630003315FA /* TrackDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E620D25B5D62F003315FA /* TrackDetail.swift */; };
+		840E622B25B5D630003315FA /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E620E25B5D62F003315FA /* SearchBar.swift */; };
+		840E622C25B5D630003315FA /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E620F25B5D62F003315FA /* TrackList.swift */; };
+		840E622D25B5D630003315FA /* TrackRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621025B5D62F003315FA /* TrackRow.swift */; };
+		840E622E25B5D630003315FA /* Track.json in Resources */ = {isa = PBXBuildFile; fileRef = 840E621225B5D62F003315FA /* Track.json */; };
+		840E623125B5D630003315FA /* URLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621725B5D630003315FA /* URLComponents.swift */; };
+		840E623225B5D630003315FA /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621825B5D630003315FA /* URLRequest.swift */; };
+		840E623325B5D630003315FA /* SpotifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621925B5D630003315FA /* SpotifyAPI.swift */; };
+		840E623425B5D630003315FA /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621A25B5D630003315FA /* APIProvider.swift */; };
+		840E623525B5D630003315FA /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621B25B5D630003315FA /* URLSession.swift */; };
+		840E623625B5D630003315FA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621D25B5D630003315FA /* Track.swift */; };
+		840E623725B5D630003315FA /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621E25B5D630003315FA /* URLImageView.swift */; };
+		840E623825B5D630003315FA /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621F25B5D630003315FA /* JSONLoader.swift */; };
+		840E623925B5D630003315FA /* Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E622025B5D630003315FA /* Alignment.swift */; };
+		840E623A25B5D630003315FA /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E622125B5D630003315FA /* Image.swift */; };
+		840E623B25B5D630003315FA /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E622225B5D630003315FA /* Application.swift */; };
+		840E623C25B5D630003315FA /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E622325B5D630003315FA /* Bundle.swift */; };
+		840E623D25B5D630003315FA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E622425B5D630003315FA /* Color.swift */; };
+		840E623F25B5D630003315FA /* TracksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E622725B5D630003315FA /* TracksViewModel.swift */; };
+		840E624625B5D76B003315FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E624425B5D76B003315FA /* Preview Assets.xcassets */; };
+		840E624A25B5D774003315FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E624925B5D774003315FA /* Assets.xcassets */; };
+		840E625025B5DB64003315FA /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 840E624F25B5DB64003315FA /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +44,31 @@
 		840E61F725B5D5E7003315FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		840E61F925B5D5E7003315FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		840E61FB25B5D5EA003315FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		840E61FE25B5D5EA003315FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		840E620125B5D5EA003315FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840E620325B5D5EA003315FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840E620B25B5D62F003315FA /* TrackSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackSearchView.swift; sourceTree = "<group>"; };
+		840E620C25B5D62F003315FA /* TransientTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransientTextView.swift; sourceTree = "<group>"; };
+		840E620D25B5D62F003315FA /* TrackDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackDetail.swift; sourceTree = "<group>"; };
+		840E620E25B5D62F003315FA /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		840E620F25B5D62F003315FA /* TrackList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
+		840E621025B5D62F003315FA /* TrackRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackRow.swift; sourceTree = "<group>"; };
+		840E621225B5D62F003315FA /* Track.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Track.json; sourceTree = "<group>"; };
+		840E621725B5D630003315FA /* URLComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLComponents.swift; sourceTree = "<group>"; };
+		840E621825B5D630003315FA /* URLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		840E621925B5D630003315FA /* SpotifyAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyAPI.swift; sourceTree = "<group>"; };
+		840E621A25B5D630003315FA /* APIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		840E621B25B5D630003315FA /* URLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		840E621D25B5D630003315FA /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		840E621E25B5D630003315FA /* URLImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
+		840E621F25B5D630003315FA /* JSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		840E622025B5D630003315FA /* Alignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alignment.swift; sourceTree = "<group>"; };
+		840E622125B5D630003315FA /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		840E622225B5D630003315FA /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		840E622325B5D630003315FA /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		840E622425B5D630003315FA /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		840E622725B5D630003315FA /* TracksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracksViewModel.swift; sourceTree = "<group>"; };
+		840E624425B5D76B003315FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		840E624925B5D774003315FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840E625025B5DB64003315FA /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,21 +102,83 @@
 		840E61F425B5D5E7003315FA /* Widgets */ = {
 			isa = PBXGroup;
 			children = (
+				840E624325B5D76B003315FA /* Preview Content */,
+				840E624925B5D774003315FA /* Assets.xcassets */,
+				840E621625B5D630003315FA /* API */,
+				840E621C25B5D630003315FA /* Extensions */,
+				840E621125B5D62F003315FA /* Stubs */,
+				840E622625B5D630003315FA /* ViewModels */,
+				840E620A25B5D62F003315FA /* Views */,
 				840E61F525B5D5E7003315FA /* AppDelegate.swift */,
 				840E61F725B5D5E7003315FA /* SceneDelegate.swift */,
 				840E61F925B5D5E7003315FA /* ContentView.swift */,
 				840E61FB25B5D5EA003315FA /* Assets.xcassets */,
 				840E620025B5D5EA003315FA /* LaunchScreen.storyboard */,
 				840E620325B5D5EA003315FA /* Info.plist */,
-				840E61FD25B5D5EA003315FA /* Preview Content */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
 		};
-		840E61FD25B5D5EA003315FA /* Preview Content */ = {
+		840E620A25B5D62F003315FA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				840E61FE25B5D5EA003315FA /* Preview Assets.xcassets */,
+				840E620B25B5D62F003315FA /* TrackSearchView.swift */,
+				840E620C25B5D62F003315FA /* TransientTextView.swift */,
+				840E620D25B5D62F003315FA /* TrackDetail.swift */,
+				840E620E25B5D62F003315FA /* SearchBar.swift */,
+				840E620F25B5D62F003315FA /* TrackList.swift */,
+				840E621025B5D62F003315FA /* TrackRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		840E621125B5D62F003315FA /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				840E621225B5D62F003315FA /* Track.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		840E621625B5D630003315FA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				840E621725B5D630003315FA /* URLComponents.swift */,
+				840E621825B5D630003315FA /* URLRequest.swift */,
+				840E621925B5D630003315FA /* SpotifyAPI.swift */,
+				840E621A25B5D630003315FA /* APIProvider.swift */,
+				840E621B25B5D630003315FA /* URLSession.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		840E621C25B5D630003315FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				840E621D25B5D630003315FA /* Track.swift */,
+				840E621E25B5D630003315FA /* URLImageView.swift */,
+				840E621F25B5D630003315FA /* JSONLoader.swift */,
+				840E622025B5D630003315FA /* Alignment.swift */,
+				840E622125B5D630003315FA /* Image.swift */,
+				840E622225B5D630003315FA /* Application.swift */,
+				840E622325B5D630003315FA /* Bundle.swift */,
+				840E622425B5D630003315FA /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		840E622625B5D630003315FA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				840E622725B5D630003315FA /* TracksViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		840E624325B5D76B003315FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				840E624425B5D76B003315FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -91,6 +199,9 @@
 			dependencies = (
 			);
 			name = Widgets;
+			packageProductDependencies = (
+				840E624F25B5DB64003315FA /* URLImage */,
+			);
 			productName = Widgets;
 			productReference = 840E61F225B5D5E7003315FA /* Widgets.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 840E61E925B5D5E6003315FA;
+			packageReferences = (
+				840E624E25B5DB64003315FA /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 840E61F325B5D5E7003315FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,8 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				840E620225B5D5EA003315FA /* LaunchScreen.storyboard in Resources */,
-				840E61FF25B5D5EA003315FA /* Preview Assets.xcassets in Resources */,
 				840E61FC25B5D5EA003315FA /* Assets.xcassets in Resources */,
+				840E624625B5D76B003315FA /* Preview Assets.xcassets in Resources */,
+				840E624A25B5D774003315FA /* Assets.xcassets in Resources */,
+				840E622E25B5D630003315FA /* Track.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +261,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840E623125B5D630003315FA /* URLComponents.swift in Sources */,
+				840E622D25B5D630003315FA /* TrackRow.swift in Sources */,
+				840E623D25B5D630003315FA /* Color.swift in Sources */,
+				840E623825B5D630003315FA /* JSONLoader.swift in Sources */,
+				840E623525B5D630003315FA /* URLSession.swift in Sources */,
+				840E622B25B5D630003315FA /* SearchBar.swift in Sources */,
+				840E623225B5D630003315FA /* URLRequest.swift in Sources */,
 				840E61F625B5D5E7003315FA /* AppDelegate.swift in Sources */,
 				840E61F825B5D5E7003315FA /* SceneDelegate.swift in Sources */,
+				840E622C25B5D630003315FA /* TrackList.swift in Sources */,
+				840E623A25B5D630003315FA /* Image.swift in Sources */,
+				840E623725B5D630003315FA /* URLImageView.swift in Sources */,
+				840E623925B5D630003315FA /* Alignment.swift in Sources */,
+				840E623325B5D630003315FA /* SpotifyAPI.swift in Sources */,
+				840E623425B5D630003315FA /* APIProvider.swift in Sources */,
+				840E623B25B5D630003315FA /* Application.swift in Sources */,
+				840E623625B5D630003315FA /* Track.swift in Sources */,
+				840E622A25B5D630003315FA /* TrackDetail.swift in Sources */,
+				840E622825B5D630003315FA /* TrackSearchView.swift in Sources */,
+				840E623F25B5D630003315FA /* TracksViewModel.swift in Sources */,
+				840E623C25B5D630003315FA /* Bundle.swift in Sources */,
 				840E61FA25B5D5E7003315FA /* ContentView.swift in Sources */,
+				840E622925B5D630003315FA /* TransientTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +481,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		840E624E25B5DB64003315FA /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		840E624F25B5DB64003315FA /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 840E624E25B5DB64003315FA /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 840E61EA25B5D5E6003315FA /* Project object */;
 }
