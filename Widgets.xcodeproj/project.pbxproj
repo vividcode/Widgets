@@ -36,7 +36,31 @@
 		840E624625B5D76B003315FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E624425B5D76B003315FA /* Preview Assets.xcassets */; };
 		840E624A25B5D774003315FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840E624925B5D774003315FA /* Assets.xcassets */; };
 		840E625025B5DB64003315FA /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 840E624F25B5DB64003315FA /* URLImage */; };
+		840E625B25B5F4BB003315FA /* WidgetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E625A25B5F4BB003315FA /* WidgetsTests.swift */; };
+		840E626925B5F53C003315FA /* MockAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E626425B5F53C003315FA /* MockAPIProvider.swift */; };
+		840E626A25B5F53C003315FA /* TestRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E626525B5F53C003315FA /* TestRootViewController.swift */; };
+		840E626B25B5F53C003315FA /* AuthorizeStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 840E626625B5F53C003315FA /* AuthorizeStub.json */; };
+		840E626C25B5F53C003315FA /* TestSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E626725B5F53C003315FA /* TestSceneDelegate.swift */; };
+		840E626D25B5F53C003315FA /* TrackSearchStub.json in Resources */ = {isa = PBXBuildFile; fileRef = 840E626825B5F53C003315FA /* TrackSearchStub.json */; };
+		840E627225B5F5B0003315FA /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621A25B5D630003315FA /* APIProvider.swift */; };
+		840E627525B5F5C3003315FA /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621825B5D630003315FA /* URLRequest.swift */; };
+		840E627825B5F5DB003315FA /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621F25B5D630003315FA /* JSONLoader.swift */; };
+		840E627B25B5F5EE003315FA /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E622325B5D630003315FA /* Bundle.swift */; };
+		840E627E25B5F682003315FA /* SpotifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621925B5D630003315FA /* SpotifyAPI.swift */; };
+		840E627F25B5F692003315FA /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621B25B5D630003315FA /* URLSession.swift */; };
+		840E628225B5F69E003315FA /* URLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E621725B5D630003315FA /* URLComponents.swift */; };
+		840E628525B5F6AC003315FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E61F525B5D5E7003315FA /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840E625D25B5F4BB003315FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840E61EA25B5D5E6003315FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840E61F125B5D5E7003315FA;
+			remoteInfo = Widgets;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		840E61F225B5D5E7003315FA /* Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +93,14 @@
 		840E622725B5D630003315FA /* TracksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracksViewModel.swift; sourceTree = "<group>"; };
 		840E624425B5D76B003315FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		840E624925B5D774003315FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840E625825B5F4BB003315FA /* WidgetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidgetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840E625A25B5F4BB003315FA /* WidgetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsTests.swift; sourceTree = "<group>"; };
+		840E625C25B5F4BB003315FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840E626425B5F53C003315FA /* MockAPIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPIProvider.swift; sourceTree = "<group>"; };
+		840E626525B5F53C003315FA /* TestRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRootViewController.swift; sourceTree = "<group>"; };
+		840E626625B5F53C003315FA /* AuthorizeStub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AuthorizeStub.json; sourceTree = "<group>"; };
+		840E626725B5F53C003315FA /* TestSceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSceneDelegate.swift; sourceTree = "<group>"; };
+		840E626825B5F53C003315FA /* TrackSearchStub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TrackSearchStub.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +112,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		840E625525B5F4BB003315FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				840E61F425B5D5E7003315FA /* Widgets */,
+				840E625925B5F4BB003315FA /* WidgetsTests */,
 				840E61F325B5D5E7003315FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				840E61F225B5D5E7003315FA /* Widgets.app */,
+				840E625825B5F4BB003315FA /* WidgetsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,6 +224,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		840E625925B5F4BB003315FA /* WidgetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				840E626625B5F53C003315FA /* AuthorizeStub.json */,
+				840E626425B5F53C003315FA /* MockAPIProvider.swift */,
+				840E626525B5F53C003315FA /* TestRootViewController.swift */,
+				840E626725B5F53C003315FA /* TestSceneDelegate.swift */,
+				840E626825B5F53C003315FA /* TrackSearchStub.json */,
+				840E625A25B5F4BB003315FA /* WidgetsTests.swift */,
+				840E625C25B5F4BB003315FA /* Info.plist */,
+			);
+			path = WidgetsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,6 +261,24 @@
 			productReference = 840E61F225B5D5E7003315FA /* Widgets.app */;
 			productType = "com.apple.product-type.application";
 		};
+		840E625725B5F4BB003315FA /* WidgetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840E626125B5F4BB003315FA /* Build configuration list for PBXNativeTarget "WidgetsTests" */;
+			buildPhases = (
+				840E625425B5F4BB003315FA /* Sources */,
+				840E625525B5F4BB003315FA /* Frameworks */,
+				840E625625B5F4BB003315FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840E625E25B5F4BB003315FA /* PBXTargetDependency */,
+			);
+			name = WidgetsTests;
+			productName = WidgetsTests;
+			productReference = 840E625825B5F4BB003315FA /* WidgetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,6 +290,10 @@
 				TargetAttributes = {
 					840E61F125B5D5E7003315FA = {
 						CreatedOnToolsVersion = 12.0.1;
+					};
+					840E625725B5F4BB003315FA = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 840E61F125B5D5E7003315FA;
 					};
 				};
 			};
@@ -237,6 +314,7 @@
 			projectRoot = "";
 			targets = (
 				840E61F125B5D5E7003315FA /* Widgets */,
+				840E625725B5F4BB003315FA /* WidgetsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +329,15 @@
 				840E624625B5D76B003315FA /* Preview Assets.xcassets in Resources */,
 				840E624A25B5D774003315FA /* Assets.xcassets in Resources */,
 				840E622E25B5D630003315FA /* Track.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840E625625B5F4BB003315FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840E626B25B5F53C003315FA /* AuthorizeStub.json in Resources */,
+				840E626D25B5F53C003315FA /* TrackSearchStub.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +374,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		840E625425B5F4BB003315FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840E626A25B5F53C003315FA /* TestRootViewController.swift in Sources */,
+				840E627B25B5F5EE003315FA /* Bundle.swift in Sources */,
+				840E625B25B5F4BB003315FA /* WidgetsTests.swift in Sources */,
+				840E627225B5F5B0003315FA /* APIProvider.swift in Sources */,
+				840E627F25B5F692003315FA /* URLSession.swift in Sources */,
+				840E627525B5F5C3003315FA /* URLRequest.swift in Sources */,
+				840E627E25B5F682003315FA /* SpotifyAPI.swift in Sources */,
+				840E626925B5F53C003315FA /* MockAPIProvider.swift in Sources */,
+				840E628225B5F69E003315FA /* URLComponents.swift in Sources */,
+				840E626C25B5F53C003315FA /* TestSceneDelegate.swift in Sources */,
+				840E628525B5F6AC003315FA /* AppDelegate.swift in Sources */,
+				840E627825B5F5DB003315FA /* JSONLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840E625E25B5F4BB003315FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840E61F125B5D5E7003315FA /* Widgets */;
+			targetProxy = 840E625D25B5F4BB003315FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		840E620025B5D5EA003315FA /* LaunchScreen.storyboard */ = {
@@ -459,6 +573,46 @@
 			};
 			name = Release;
 		};
+		840E625F25B5F4BB003315FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ERGWFYQHB2;
+				INFOPLIST_FILE = WidgetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphonegamezone.Widgets.WidgetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Widgets.app/Widgets";
+			};
+			name = Debug;
+		};
+		840E626025B5F4BB003315FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ERGWFYQHB2;
+				INFOPLIST_FILE = WidgetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iphonegamezone.Widgets.WidgetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Widgets.app/Widgets";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -476,6 +630,15 @@
 			buildConfigurations = (
 				840E620725B5D5EA003315FA /* Debug */,
 				840E620825B5D5EA003315FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840E626125B5F4BB003315FA /* Build configuration list for PBXNativeTarget "WidgetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840E625F25B5F4BB003315FA /* Debug */,
+				840E626025B5F4BB003315FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
