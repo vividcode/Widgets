@@ -1,9 +1,10 @@
 # Widgets
 
-SwiftUI Widget based app to track Spotify songs
+**SwiftUI Widget based app to track Spotify songs**
 
-![Dark Theme](https://github.com/vividcode/Widgets/blob/main/Screenshots/dark.png)
-![Light Theme](https://github.com/vividcode/Widgets/blob/main/Screenshots/light.png)
+<img alt="Dark" src="Screenshots/dark.png" width="320" height="568">
+
+<img alt="Light" src="Screenshots/light.png" width="320" height="568">
 
 ## API folder:
 
